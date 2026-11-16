@@ -21,3 +21,13 @@ main{flex:1;width:100%;max-width:1000px;margin:0 auto;padding:48px 24px}
 .back{margin-top:28px}
 .back a{color:var(--accent);text-decoration:none;font-weight:600}
 .site-footer{text-align:center;padding:20px;color:var(--muted);border-top:1px solid var(--line);background:var(--card)}
+.essay h2{margin:32px 0 8px;font-size:1.4rem}
+.essay h2:first-child{margin-top:0}
+.essay p{margin:0 0 14px}
+.chart{margin:20px 0 28px;padding:16px 16px 8px;background:#fff;border:1px solid var(--line);border-radius:12px}
+.chart figcaption{margin-bottom:6px}
+.chart svg{width:100%;height:auto;display:block}
+.source{margin:6px 0 4px;font-size:.85rem;color:var(--muted)}
+.sources-list{padding-left:20px;font-size:.92rem}
+.sources-list li{margin-bottom:6px}
+.sources-list a{color:var(--accent)}
