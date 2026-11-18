@@ -31,3 +31,12 @@ main{flex:1;width:100%;max-width:1000px;margin:0 auto;padding:48px 24px}
 .sources-list{padding-left:20px;font-size:.92rem}
 .sources-list li{margin-bottom:6px}
 .sources-list a{color:var(--accent)}
+details.field{margin:14px 0;border:1px solid var(--line);border-radius:12px;background:#fff;overflow:hidden}
+details.field summary{cursor:pointer;list-style:none;padding:16px 20px;font-size:1.25rem;font-weight:600;display:flex;justify-content:space-between;align-items:center}
+details.field summary::-webkit-details-marker{display:none}
+details.field summary::after{content:"+";font-size:1.6rem;line-height:1;color:var(--accent);font-weight:400}
+details.field[open] summary::after{content:"\2212"}
+details.field summary:hover{background:var(--bg)}
+details.field[open] summary{border-bottom:1px solid var(--line)}
+.field-body{padding:18px 20px 6px}
+.field-body .chart{margin-top:8px}
